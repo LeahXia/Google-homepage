@@ -1,0 +1,99 @@
+
+header nav ul li{
+  display:inline-block;
+  padding:18px;
+  float:right;
+}
+ul{
+  list-style-type:none;
+}
+li{
+  text-decoration: none;
+}
+.li:active{
+    text-decoration:none;
+    color:#222;
+}
+.Photo{
+  padding:0px;
+  margin:-10px;
+  border-radius:30px
+}
+.notice{
+  margin:-5px;
+}
+.content{
+  text-align:center;
+  padding-top:200px;
+}
+form{
+  width:580px;
+  height:40px;
+  margin:0 auto;
+  position:relative;
+  margin-top:20px;
+}
+form input{
+  width:580px;
+  height:40px;
+  position:absolute;
+  left:0;
+}
+.input:hover{
+    border:none;
+}
+form img{
+  position:absolute;
+  right:10px;
+  top:0px;
+  padding-top:8px;
+  z-index:2;
+}
+div button{
+  margin:35px 5px;
+  background:#f5f5f5;
+  border:0px;
+  border-radius:2px;
+  color:#757575;
+  width:130px;
+  height:36px;
+  display:inline-block;
+  font-family: arial,sans-serif;
+  font-weight:bold;
+  font-size:13px;
+}
+.button:hover{
+  color:#212121;
+  border: 1px solid #aaa;
+  box-shadow:0px 1px 1px 1px rgba(0,0,0,0.1);
+}
+
+
+footer nav ul{
+  background:#eee;
+  bottom:0;
+  color:#222;
+  position:absolute;
+  padding:0px;
+  margin:0px;
+}
+footer nav ul li{
+  display:inline-block;
+  padding:14px 13px;
+  font-family: arial,sans-serif;
+  font-size:small;
+  height:42px;
+}
+
+.l-nav{
+  padding-left: 15px;
+  width:70%;
+  left:0px;
+  
+}
+.r-nav{
+  padding-right: 15px;
+  width:30%;
+  right:0px;
+  text-align:right;
+}
