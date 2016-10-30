@@ -1,4 +1,6 @@
-
+body{
+    font-family:arial,sans-serif;
+}
 header nav ul li{
   display:inline-block;
   padding:18px;
